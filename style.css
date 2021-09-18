@@ -12,7 +12,7 @@ body {
     background: #1D1E22;
 }
 .main {
-    max-width: 80%;
+    max-width: 90%;
     margin: auto;
     height: 100vh;
     display: flex;
