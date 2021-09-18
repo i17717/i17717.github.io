@@ -21,7 +21,7 @@ body {
     flex-direction: column;
 }
 .logo {
-    max-width: 60%;
+    max-width: 50%;
     min-width: 180px;
     animation: color-rotate 2s linear infinite alternate;
 }
