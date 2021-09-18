@@ -12,7 +12,7 @@ body {
     background: #1D1E22;
 }
 .main {
-    max-width: 90%;
+    max-width: 80%;
     margin: auto;
     height: 100vh;
     display: flex;
@@ -21,7 +21,7 @@ body {
     flex-direction: column;
 }
 .logo {
-    max-width: 50%;
+    max-width: 60%;
     min-width: 180px;
     animation: color-rotate 2s linear infinite alternate;
 }
