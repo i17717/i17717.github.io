@@ -23,7 +23,7 @@ body {
 .logo {
     max-width: 50%;
     min-width: 180px;
-    animation: color-rotate 2s linear infinite;
+    animation: color-rotate 2s linear infinite alternate;
 }
 @keyframes color-rotate {
     from {
@@ -51,15 +51,28 @@ nav button {
     padding: 0.75rem;
     cursor: not-allowed;
     flex-shrink: 0;
+    transition: all 0.1s linear;
 }
-#left {
+button.left {
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
+    background: #F5C0A3;
 }
-#right  {
+button.right  {
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
+    background: #F6A2AC;
 }
+/* .left:hover,
+.left:active {
+    background: #EB844E;
+    color: #1D1E22;
+}
+.right:hover,
+.right:active {
+    background: #EE4358;
+    color: #1D1E22;
+} */
 main p {
     text-transform: uppercase;
     font-weight: bold;
