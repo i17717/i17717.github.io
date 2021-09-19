@@ -12,7 +12,7 @@ body {
     background: #1D1E22;
 }
 .main {
-    max-width: 80%;
+    max-width: 70%;
     margin: auto;
     height: 100vh;
     display: flex;
@@ -21,7 +21,7 @@ body {
     flex-direction: column;
 }
 .logo {
-    max-width: 50%;
+    max-width: 60%;
     min-width: 180px;
     animation: color-rotate 2s linear infinite alternate;
 }
@@ -37,11 +37,10 @@ nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    flex-shrink: 1;
     margin-top: 30px;
 }
 nav button {
-    margin: 0.5rem;
+    margin: 0.5em;
     width: 8rem;
     border-radius: 5px;
     background: #C7C7C7;
