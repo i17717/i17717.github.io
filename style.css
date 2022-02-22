@@ -66,12 +66,14 @@ nav .btn {
     border: 2px solid #EE4358;
 }
 /* .btn-left:hover,
-.btn-left:active {
+.btn-left:active,
+.btn-left:focus {
     background: #EB844E;
     color: #1D1E22;
 }
 .btn-right:hover,
-.btn-right:active {
+.btn-right:active,
+.btn-right:focus {
     background: #EE4358;
     color: #1D1E22;
 } */
