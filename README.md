@@ -1,5 +1,5 @@
 # About
 
-This project leads to my both portfolio and website, which I currently work on^^
+This page leads to my both portfolio and website, which I'm currently working on^^
 
-[VIEW THIS WEBSITE](https://lillime0.github.io/)
+[VIEW IT](https://lillime0.github.io/)
