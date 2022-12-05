@@ -65,25 +65,31 @@ nav .btn {
     color: #EE4358;
     border: 2px solid #EE4358;
 }
-/* .btn-left:hover,
+.btn-left:hover,
 .btn-left:active,
 .btn-left:focus {
     background: #EB844E;
     color: #1D1E22;
 }
+/*
 .btn-right:hover,
 .btn-right:active,
 .btn-right:focus {
     background: #EE4358;
     color: #1D1E22;
 } */
-main p {
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #222;
+  }
+}
+/* main p {
     text-transform: uppercase;
     font-weight: bold;
     color: #A9A9A9;
     margin-top: 50px;
     animation: scale 1s linear infinite alternate;
-}
+} */
 @keyframes scale {
     from {
         transform: scale(1.25);
