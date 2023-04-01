@@ -16,7 +16,7 @@ body {
 .main {
     max-width: 70%;
     margin: auto;
-    height: 100vh;
+    min-height: 100svh;
     display: flex;
     align-items: center;
     justify-content: center;
